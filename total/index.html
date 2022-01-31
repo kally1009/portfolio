@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+
+
+
+
+        <ul>
+            <li v-for="service in services" 
+            v-on:click="toggleActive(service)" 
+            v-bind:class="{'active':service.active}">
+                {{ service.name }} <span> ${{ service.price }}</span>
+                    
+            </li>
+            <br>
+        </ul>
+        <div id="total">
+            Total: <span> ${{ total }}</span>
+        </div>
+
+
+
+
+
+    </div>
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+    <script src="app.js"></script>
+
+</html>

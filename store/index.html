@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <title>Online Store</title>
+</head>
+<body>
+    <div class="wrapper" id="app">
+        <nav>
+            <div><img id="nav-img" src="butterfly.svg" alt="butterfly" width="100px"></div>
+            <div id="nav-items">
+                <div class= "navigation" v-on:click="page = 'home'">Home</div>
+                <div class= "navigation" v-on:click="page = 'shop'">Shop</div>
+                <div class= "navigation" v-on:click="page = 'checkout' ">Checkout</div>
+            </div>
+        </nav>
+        <div v-if = "page == 'home'" class="page-div">
+            <h1>Welcome to The Fashion Store</h1>
+            <div id="hero">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div id="welcome">
+                    <p id="intro">New Clothing Styles Every Week!</p>
+                    <p v-on:click = "page = 'shop'" id="cta-btn">Shop Now </p>
+                </div>
+            
+            </div>
+
+
+        </div>
+        <div v-else-if = "page =='shop'" class="page-div">
+            <h1>Shop</h1>
+            <div class="shop-div-1">
+                <div id="romper-1">
+                    <img src="photos/jumpsuit_striped.jpg" alt="Striped Jumpsuit/Romper" width="250px">
+                    <p>Summer Rompers</p>
+                    <div class="select-options"><a class="options-link" href="#">Select Options</a></div>
+                </div>
+                <div id="high-heels-1">
+                    <img src="photos/highheels_black.jpg" alt="High Heels" width="250px">
+                    <p>Classic High Heel Shoes </p>
+                    <div class="select-options"><a class="options-link" href="#">Select Options</a></div>
+                </div>
+
+            </div>
+
+        </div>
+        <div v-else-if = "page == 'checkout' " class="page-div">
+            <h1>Checkout</h1>
+            <div class="page-div">
+                
+                <div class="list-items">
+            
+                    <h3>Total</h3>
+                </div>
+
+
+            </div>
+        </div>
+        <footer>
+            <div class="bottom-footer">
+                Website by Kalicia Adams
+            </div>
+        </footer>
+
+
+
+
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+<script src="app.js"></script>
+</html>

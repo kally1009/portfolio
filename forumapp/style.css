@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#app {
+    width:600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.thread-display{
+    padding: 15px;
+    border: solid rgb(4, 138, 138) 8px;
+    margin-top: 10px;
+}
+
+.delete-btn{
+    border:none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+.delete-btn:hover{
+    background-color:rgb(4, 138, 138);
+    transition: 1s;
+
+}
+
+.nav {
+    background-color: black;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+.nav:hover{
+    background-color:rgb(4, 138, 138);
+    transition: 1s;
+}
+
+.post-div {
+    width: 400px;
+    margin: 10px auto;
+    border:solid rgb(4, 138, 138);
+    padding: 20px;
+}
+.add {
+    background-color:rgb(4, 138, 138);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+
+}
+.add:hover {
+    background-color: #ccc;
+    color: black;
+    transition: 1s;
+}
+input {
+    padding: 10px;
+    width: 500px;
+    margin: 5px auto;
+
+}
+
+#description-input {
+    display: block;
+    width: 550px;
+    margin: 5px auto;
+}
+
+.create-div {
+    background-color:rgba(36, 184, 184, 0.726);
+    border: solid black 5px;
+    margin-top: 20px;
+}
+.drop-down {
+    width: 300px;
+    margin: 10px auto;
+    
+}
+#submit-btn {
+    border: none;
+    padding: 5px 10px;
+}
+#submit-btn:hover {
+    background-color:rgb(4, 138, 138);
+}
+.name-author-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.start-thread {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#start {
+    border: solid black 5px;
+    margin-top: 20px;
+}

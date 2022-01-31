@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Search Bar</title>
+</head>
+<body>
+    <div id="app">
+    <div id="search-bar">
+        <img src="search-2.svg" alt="search" id="search-icon">
+        <input type="text"  placeholder="Search" v-model="searchString" >
+    </div>
+
+        <div v-for = "article in filteredArticles" class="search-results">
+            <a v-bind:href="article.url"><h2> {{ article.title }} </h2>
+            <img v-bind:src="article.image"></a>
+        </div>
+     
+
+
+
+
+
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+<script src="app.js"></script>
+</html>

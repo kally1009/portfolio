@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic 8 Ball</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div id="eight-ball">
+            <div id="eight-ball-answer">
+               <p> {{ answer }} </p>
+
+            </div>
+        </div>
+        <h1> Magic 8 Ball </h1>
+        <h4>Go ahead, ask a question</h4>
+        <!---Input and asks question-->
+        <input type="text" v-model="question" v-on:keyup="checkQuestion()">
+        <p>  {{ feedback }} </p>
+        <button v-on:click="askQuestion()">Ask</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

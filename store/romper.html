@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <title>Online Store</title>
+</head>
+<body>
+    <div class="wrapper" id="app">
+        <nav>
+            <div><img id="nav-img" src="butterfly.svg" alt="butterfly" width="100px"></div>
+            <div id="nav-items">
+                <div class= "navigation" v-on:click="page = 'home'"><a href="index.html">Home</a></div>
+                <div class= "navigation" v-on:click="page = 'shop'"><a href="index.html">Shop</a></div>
+                <div class= "navigation" v-on:click="page = 'checkout' "><a href="index.html">Checkout</a></div>
+            </div>
+        </nav>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+<script src="app.js"></script>
+</html>

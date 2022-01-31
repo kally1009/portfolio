@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#app {
+    width: 600px;
+    margin: 0 auto;
+}
+
+input {
+    width: 500px;
+    text-align: left;
+    border: none;
+    padding: 10px;
+    font-size: 1.5em;
+    outline: none;
+}
+
+img {
+    width: 300px;
+}
+
+.search-results {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: purple;
+}
+
+#search-icon {
+    width: 30px;
+    padding-top: 10px;
+}
+#search-bar {
+    border: solid 5px black;
+    border-radius: 10px;
+
+}

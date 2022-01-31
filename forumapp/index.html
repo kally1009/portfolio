@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <title>Forum App</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Forum App</h1>
+        <button class="nav" v-on:click="page = 'forum'">Forum</button>
+        <button class="nav" v-on:click="page='create'">New Thread</button>
+
+        <div  v-if="page=='forum'">
+            <h3>Select a Category</h3>
+
+            <select v-model="selected_category">
+                <option v-for="category in categories">
+                {{ category }}
+                </option>
+
+            </select>
+            <div v-show="filteredThreads.length==0">
+                {{ threads_empty }}
+            </div>
+
+
+            
+            <div v-for="thread in filteredThreads" class="thread-display">
+                <div v-on:click="getPosts(thread._id)">
+                    <div class="name-author-div">
+                        <h2>{{ thread.name }}</h2>
+                        <h4>By: {{thread.author}}</h4>
+                    </div>
+                    <p> {{ thread.description }} </p>
+                    <p> Category: {{ thread.category }} </p>
+                </div>
+                <button v-on:click="deleteThread(thread._id)" class="delete-btn">Delete</button>
+
+
+            </div>
+
+        </div>
+
+        <div v-if="page=='posts'">
+            <div id="start">
+                <div class="start-thread">
+                    <h2> {{ postings.name }} </h2>
+                    <p>By: {{ postings.author }} </p>
+                </div>
+                <div class="start-thread-2">
+                    <p>{{ postings.description }} </p>
+                    <p> Category: {{ postings.category}} </p>
+                </div>
+            </div>
+            <h2>Posts</h2>
+            <div v-show="postings.posts.length==0">
+                {{ posts_empty }}
+            </div>
+            <div v-for="post in postings.posts" class="post-div">
+                <p>By: {{ post.author }}</p>
+                <p> {{ post.body }}</p>
+                <button class="delete-btn" v-on:click="deletePost(post)">Delete</button>
+            </div>
+            
+            <br>
+            <h2>Create Post </h2>
+            <label>Author: </label>
+            <input type="text" v-model="post_author">
+            <br>
+            <label>Body: </label>
+            <input type="text" v-model="post_body">
+            <button class="add" v-on:click="createPost(postings._id)">Add new post</button>
+
+
+        </div>
+        <div v-if="page=='create'" class="create-div">
+        <!--create new thread-->
+            <h3>Create Thread</h3>
+            <label>Name:</label>
+            <input v-model="new_name" type="text">
+            <br>
+            <label>Author: </label>
+            <input v-model="new_author" type="text">
+            <br>
+            <label>Description: </label>
+            <input v-model="new_description" type="text" id="description-input">
+            <br>
+            <label>Category: </label>
+            <select v-model="new_category" class="drop-down">
+                <option v-for="category in categories" v-bind:value="category">
+                {{ category }}
+                </option>
+            </select>
+            <button v-on:click="createThread()" id="submit-btn">Submit</button>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+<script src="app.js"></script>
+</html>

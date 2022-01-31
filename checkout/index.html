@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
+
+
+    <title>Checkout</title>
+</head>
+<body>
+<div class="wrapper">
+    <div id="app">
+        <div class="selection">
+            <h1>Checkout: Skateboard </h1>
+            <h3>Pick a deck:</h3>
+            <br>
+        
+            <img v-bind:src="computedDeckImage"><br>
+            <input value="oak" type="radio" v-model="deck_type">Oak
+            <input value="pine" type="radio" v-model="deck_type">Pine 
+            <input value="wood" type="radio" v-model="deck_type">Wood
+            <br><br>
+            <h3>Pick your wheel:</h3>
+            <br>
+        
+            <img v-bind:src="computedWheelImage"><br>
+            <input value="white" type="radio" v-model="wheel_type">White
+            <input value="black" type="radio" v-model="wheel_type">Black
+            <input value="blue" type="radio" v-model="wheel_type">Blue 
+            <br> <br>
+        </div>
+        <div class="checkout">
+            <h4> Cost: $ {{ cost }} </h4>
+            <h4> Tax: $ {{ tax }} </h4>
+            <h4> Total : $ {{ computedCost }}
+            <br>
+            <br>
+            <div>
+                <label>First Name</label>
+                <input type="text">
+                <label>Last Name</label>
+                <input type="text">
+            </div>
+            <br>
+            <div>
+                <label>Street Address</label>
+                <input type="text">
+                <label>State</label>
+                <input type="text">
+                
+            </div>
+            <br>
+            <div><label>Country </label>
+                <input type="text">
+            </div>
+            <br>
+            <div class="checkout-btn">Checkout</div>
+
+        </div>
+
+
+    </div>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+<script src="app.js"></script>
+</html>

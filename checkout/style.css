@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Viaoda Libre', cursive;
+
+}
+
+.wrapper {
+    width: 900px;
+    margin: 0px auto;
+    
+}
+h1 {
+    text-align: center;
+}
+
+#app {
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+}
+
+.checkout {
+    padding-top: 80px;
+    width: 400px;
+    text-align: left;
+
+}
+.checkout-btn {
+    padding: 10px;
+    background-color: purple;
+    text-align: center;
+    color: white;
+}
+.checkout-btn:hover {
+    background-color: aqua;
+    color: black;
+}
+

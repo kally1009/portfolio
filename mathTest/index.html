@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Math Test</title>
+</head>
+<body>
+    <div id="app" class="wrapper">
+        <h1>Math Test </h1>
+        <br>
+        <nav>
+            <p v-on:click="page = 'test'">Test</p>
+            <p v-on:click="page = 'results'">Results</p>
+        </nav>
+        <div v-if = "page == 'test'">
+            <h2>Problem Section: </h2>
+            <p>Problem {{ problem_num}}</p>
+            <p> {{ num_one }} + {{ num_two }} = {{ the_answer }}</p>
+            <br>
+            
+                <p id="guess">Guess:
+                    <input type="text" v-model="answer">
+                </p>
+            <br>
+            <div class="btn-container">
+                <button v-if="!submitted" v-on:click="checkAnswer ( )">Check Answer</button>
+                <button v-on:click="generateRandomNumbers ( )">Next Question</button>
+            </div>
+            <br>
+            <p> {{ feedback }} </p>
+            <br>
+        </div>
+        <div v-if = "page =='results'">
+            <h2>Results Section:</h2>
+            <p> You've gotten {{results }} / {{ answered }} correct</p>
+        </div>
+
+
+    </div>
+    
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+<script src="app.js"></script>
+</html>
