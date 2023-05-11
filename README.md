@@ -16,7 +16,7 @@
 - Final Project Naturistic (stripeHerokuAWS) - *Was live, but needs updating
 
 #### Fall 2021 Projects
-- Canvas Calendar Chrome Extension [Extension](https://chrome.google.com/webstore/detail/canvas-calender-note-taki/kbkdkicbnjddjpmeofjefdjaeglikmeg)
+- Canvas Calendar Chrome Extension - [Extension Link](https://chrome.google.com/webstore/detail/canvas-calender-note-taki/kbkdkicbnjddjpmeofjefdjaeglikmeg)
 - Software Qualtiy (Testing)
 - Personal Portfolio Website - *Needs Updating
 
@@ -24,7 +24,7 @@
 - Android Development Projects (Kotlin)
 - Web Socket Math Game
 - Simple Social Media Web App - Food Fight
-- Anne's Cleaning Services Website Updated - www.annescleaningservices.com
+- Anne's Cleaning Services Website [Updated Website Link](www.annescleaningservices.com)
 
 #### Fall 2022 Projects
 - Simple Python Web Crawler
