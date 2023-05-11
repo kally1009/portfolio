@@ -24,7 +24,7 @@
 - Android Development Projects (Kotlin)
 - Web Socket Math Game
 - Simple Social Media Web App - Food Fight
-- Anne's Cleaning Services Website [Updated Website Link](www.annescleaningservices.com)
+- Anne's Cleaning Services Website [Updated Website Link](https://www.annescleaningservices.com/)
 
 #### Fall 2022 Projects
 - Simple Python Web Crawler
