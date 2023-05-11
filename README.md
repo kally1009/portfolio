@@ -1,7 +1,6 @@
 # Kalicia Adams' Portfolio
-
-##### Most of these projects were made in the Summer of 2021.  
-
+ 
+ 
 ## Projects included are:
 
 #### Summer 2021 Projects
@@ -40,7 +39,7 @@
 - Programming Languages Projects
 - Other Operating Systems Assignments
 
-#### Summer 2023 Projects (Currently working on)
+#### Summer 2023 Projects - Currently working on
 - Aquire Game Desktop Application
 - Updating Naturistic
 - Updating personal portfolio website
