@@ -1,5 +1,5 @@
 # Kalicia Adams' Portfolio
- 
+
  
 ## Projects included are:
 
@@ -23,21 +23,13 @@
 - Personal [Portfolio Website Repo](https://github.com/kally1009/kally1009.github.io) *Website Needs Updating*
 
 #### Spring 2022 Projects
-- Android Development Projects (Kotlin)
-- Web Socket Math Game
-- Simple Social Media Web App - Food Fight
 - Database Systems Final Project [Interesting Housing Queries](https://github.com/kally1009/cs4307-FinalProject)
 - Anne's Cleaning Services Website [Updated Website Link](https://www.annescleaningservices.com/)
 ![Anne's Cleaning Services Homepage](/assets/img/annesCleaningServices_homepage.png "Anne's Cleaning Services Homepage")
 
-#### Fall 2022 Projects
-- Simple Python Web Crawler
-- Automated Exporting Code from webflow (Python and Selenium) - Work project at Rain Room Creative
-
-#### Spring 2023 Projects
+#### Spring 2023
 - Multithreading calculating digits of pi - [Repo Link](https://github.com/kally1009/multiThreaded-pi)
-- Programming Languages Projects
-- Other Operating Systems Assignments
+
 
 #### Summer 2023 Projects - Currently working on
 - Aquire Game Desktop Application
