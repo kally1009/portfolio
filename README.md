@@ -31,10 +31,9 @@
 - Multithreading calculating digits of pi - [Repo Link](https://github.com/kally1009/multiThreaded-pi)
 
 
-#### Summer 2023 Projects - Currently working on
-- Aquire Game Desktop Application
-- Updating Naturistic
+#### Current Projects
+- Updating Naturistic (on hold)
 - Updating personal portfolio website
-
-
-
+- Updating Anne's Cleaning Services
+- Web Design/Development for Start Living Organized
+- Cyber Security Certification (In a cyber security class this semester). 
