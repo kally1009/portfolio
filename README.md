@@ -36,4 +36,4 @@
 - Updating personal portfolio website
 - Updating Anne's Cleaning Services
 - Web Design/Development for Start Living Organized
-- Cyber Security Certification (In a cyber security class this semester). 
+- CompTIA Security+ Certification 
