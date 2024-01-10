@@ -12,14 +12,14 @@
 - Sample Store Front 
 - Tic-Tac-Toe 
 - Total (for another kind of simple checkout)
-- Final Project Naturistic (stripeHerokuAWS) - *Was live, but needs updating*
+- Final Group Project Naturistic (stripeHerokuAWS) - *Was live, but needs updating*
 ![Naturistic Homepage](/assets/img/naturistic_overview.png "Naturistic Homepage")
 ![Naturistic Cart Page](/assets/img/naturistic_overview_cart.png "Naturistic Checkout Page")
 
 
 #### Fall 2021 Projects
 - Canvas Calendar Chrome Extension - [Extension Link](https://chrome.google.com/webstore/detail/canvas-calender-note-taki/kbkdkicbnjddjpmeofjefdjaeglikmeg)
-- Software Qualtiy Projects - [Repo](https://github.com/kally1009/softwareQuality)
+- Software Qualtiy Projects - [Repo](https://github.com/kally1009/softwareQuality) *currently private
 - Personal [Portfolio Website Repo](https://github.com/kally1009/kally1009.github.io) *Website Needs Updating*
 
 #### Spring 2022 Projects
