@@ -33,14 +33,15 @@
 #### Fall 2023
 - CompTIA Security+ Certification
 - Start Living Organized Website
+- CS4300, Introduction to AI Final Project: Acquire - [Repo Link](https://github.com/kally1009/CS4300-AI-FinalProject)
 
 #### Spring 2024
 - Senior Project, Mental Health Tracker Web App
 
-### Fall 2024
+#### Fall 2024
 - Live Life Cleaner Website
 
-### Current Projects
+#### Current Projects
 - Updating personal portfolio website
 - Developing my personal photography website
 - Working at FamilySearch (My day job)
