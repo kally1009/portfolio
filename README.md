@@ -1,4 +1,4 @@
-# Kalicia Ashcraft's Portfolio
+# Kalicia Ostler's Portfolio
 
  
 ## Projects included are:
@@ -30,10 +30,17 @@
 #### Spring 2023
 - Multithreading calculating digits of pi - [Repo Link](https://github.com/kally1009/multiThreaded-pi)
 
+#### Fall 2023
+- CompTIA Security+ Certification
+- Start Living Organized Website
 
-#### Current Projects
-- Updating Naturistic (on hold)
+#### Spring 2024
+- Senior Project, Mental Health Tracker Web App
+
+### Fall 2024
+- Live Life Cleaner Website
+
+### Current Projects
 - Updating personal portfolio website
-- Updating Anne's Cleaning Services
-- Web Design/Development for Start Living Organized
-- CompTIA Security+ Certification 
+- Developing my personal photography website
+- Working at FamilySearch (My day job)
